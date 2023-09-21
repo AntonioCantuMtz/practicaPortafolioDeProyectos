@@ -247,7 +247,6 @@ footer .contacto .formulario .boton:hover {
     background: #387bea;
 }
 
-/* Por aqui hay algo mal :/ */
 footer .redes-sociales {
     background: #1e2b38;
     padding: 40px 0;
@@ -275,3 +274,28 @@ footer .redes-sociales .youtube:hover { background: #ff0000; }
 footer .redes-sociales .github:hover { background: #6e5494; }
 footer .redes-sociales .instagram:hover { background: #c13584; }
 
+/* ----- ----- Mediaqueries ----- ----- */
+@media screen and (max-width: 800px) {
+    header .menu {
+        text-align: center;
+    }
+
+    .main .trabajos .contenedor-trabajos .trabajo {
+        width: 46%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    header .contenedor-texto .texto .nombre {
+        font-size: 35px;
+    }
+
+    header .contenedor-texto .texto .profesion {
+        font-size: 18px;
+    }
+
+    footer .redes-sociales .contenedor {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+}
